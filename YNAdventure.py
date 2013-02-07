@@ -41,7 +41,7 @@ def adventure0003():
         adventure0004()         
             
 def adventure0004():
-    print "When you're vision clears you see you are on a skyscraper with a sky train right next to you."
+    print "When your vision clears you see you are on a skyscraper with a sky train right next to you."
     decision = raw_input("Do you board the train?")
     if decision == "yes" or decision == "y":
         print "Let's go somewhere sunny, you think. You hop on just as the doors are closing."
@@ -99,8 +99,7 @@ def adventure0010():
         print "What happens next?"
     else:
         print "It's a yes or no question, dude."
-    adventure0010()
-
+        adventure0010()
 
 
 adventure0001()
